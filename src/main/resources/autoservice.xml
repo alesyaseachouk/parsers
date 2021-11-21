@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoservice>
+    <client>
+        <firstName>Petr</firstName>
+        <lastName>Grebnev</lastName>
+        <carBrand>Mercedes</carBrand>
+    </client>
+    <client>
+        <firstName>Vlad</firstName>
+        <lastName>Stebnev</lastName>
+        <carBrand>BMW</carBrand>
+    </client>
+    <detail>
+        <detailName>Wheel</detailName>
+        <onStorage>true</onStorage>
+    </detail>
+    <detail>
+        <detailName>mirror</detailName>
+        <onStorage>true</onStorage>
+    </detail>
+    <employee>
+        <firstName>Oleg</firstName>
+        <lastName>Bobrov</lastName>
+        <dateOfBirth>1988, 07, 12</dateOfBirth>
+    </employee>
+    <employee>
+        <firstName>Ivan</firstName>
+        <lastName>Andreev</lastName>
+        <dateOfBirth>1987, 05, 10</dateOfBirth>
+    </employee>
+    <order>
+        <clients>Petr</clients>
+        <details>Grebnev</details>
+    </order>>
+    <order>
+        <clients>Sergey</clients>
+        <details>Abramov</details>
+    </order>>
+</autoservice>
