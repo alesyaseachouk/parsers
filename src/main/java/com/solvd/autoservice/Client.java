@@ -1,13 +1,12 @@
 package com.solvd.autoservice;
 
+import javax.xml.bind.annotation.XmlElement;
+
 public class Client {
 
     private String firstName;
     private String lastName;
     private String carBrand;
-
-    public Client(char[] ch, int start, int length) {
-    }
 
     @Override
     public String toString() {
@@ -22,6 +21,7 @@ public class Client {
         return firstName;
     }
 
+    @XmlElement
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -30,6 +30,7 @@ public class Client {
         return lastName;
     }
 
+    @XmlElement
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -38,6 +39,7 @@ public class Client {
         return carBrand;
     }
 
+    @XmlElement
     public void setCarBrand(String carBrand) {
         this.carBrand = carBrand;
     }

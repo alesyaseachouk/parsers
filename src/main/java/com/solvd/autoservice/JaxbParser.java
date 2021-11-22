@@ -5,7 +5,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
-public class JaxbExample {
+public class JaxbParser {
 
     public Autoservice parse(String file) {
 
